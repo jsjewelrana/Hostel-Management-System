@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Apply</title>
+    <link rel="stylesheet" href="apply.css">
+</head>
+<body>
+      
+    <div class="main">
+        <form action="apply.php" method="POST">
+            <div class="center">
+                <div class="header">Apply Online Form</div>
+            
+            <br>
+                <div class="input name">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" required placeholder="ex: Sadia">
+                </div><br>
+
+                
+                <div class="input email">
+                    <label for="name">Email:</label>
+                    <input type="email" name="email" required placeholder="ex: x@gmail.com">
+                </div><br>
+        
+        
+                <div class="input phone">
+                    <label for="phone">Applicant Phone number:</label>
+                    <input type="text" name="phone" placeholder="ex: 01xxxxxxxxx">
+                    
+                </div><br>
+
+                <div class="input email">
+                    <label for="dob">Date of Birth:  </label>
+                    <input type="date" name="date">
+                </div><br>
+        
+                <div class="input place">
+                    <label for="phone">Place of Birth:</label>
+                    <input type="text" name="place" placeholder="ex: Dhaka">
+                </div><br>
+
+                <div class="input nationality">
+                    <label for="name">Nationality:</label>
+                    <input type="text" name="nationality" required placeholder="ex: Bangladeshi">
+                </div><br>
+
+                <div class="input nid">
+                    <label for="name">NID number:</label>
+                    <input type="text" name="nid" required placeholder="ex: xxxxxxxxx">
+                </div><br>
+        
+                
+                <div class="input b">
+                    <label for="name">Birth Certificat Number:</label>
+                    <input type="text" name="birth" required placeholder="ex:  xxxxxxxxx">
+                </div><br>
+        
+
+                <div class="religion">
+                    <label for="name">Religion:</label>
+                    <select name="DepartmentReligion" id="">
+                        <option value="islam">Islam</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="buddho">Budhho</option>
+                        <option value="christian">Christian</option>
+                        <option value="others">Others</option>
+                    </select>
+
+                    <label for="name">Applying level:</label>
+                    <select name="Departmentlevel" id="">
+                        <option value="Student">Student</option>
+                        <option value="Job">Job holder</option>
+                        <option value="Tourist">Tourist</option>
+                       
+                        <option value="others">Others</option>
+                    </select>
+                </div><br>
+
+                <div class="gender">
+                    <label for="name">Gender:</label>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="not to say">Prefer not to say
+                </div><br>
+ <hr><hr><br><br>
+
+                <div class="header2">Guardian's Information</div>
+
+<br>
+
+                 <div class="input name">
+                    <label for="name">Father's Name:</label>
+                    <input type="text" name="fname" required placeholder="ex: Rahim">
+                </div><br>
+
+                <div class="input phone">
+                    <label for="phone">Father's Contact number:</label>
+                    <input type="text" name="fphone" placeholder="ex: 01xxxxxxxxx">
+                </div><br>
+
+                <div class="input name">
+                    <label for="name">Mother's Name:</label>
+                    <input type="text" name="Mname" required placeholder="ex: Sadia">
+                </div><br>
+
+                <div class="input address">
+                    <label for="name">Present Address:</label>
+                    <input type="text" name="presentAddress" required placeholder="">
+                </div><br>
+
+
+                <div class="input name">
+                    <label for="name">Permanent Address:</label>
+                    <input type="text" name="PerAddress" required placeholder="">
+                </div><br>
+
+               
+                <div class="registration">
+                    <input class="btn" type="submit" value="Submit">                   
+                    <input class="btn" type="reset" value="Reset">
+                 </div>
+
+            </div>
+         
+        </form>
+    </div> 
+
+
+</body>
+</html>

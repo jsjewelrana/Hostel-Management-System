@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+   
+    <div class="main">
+        <form action="reg.php" method="POST">
+            <div class="center">
+                <div class="header">Registration Form</div>
+                <br>
+                <div class="input name">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name"  placeholder="ex: Sadia">
+                </div><br>
+            
+                <div class="input name">
+                    <label for="id">User ID:</label>
+                    <input type="text" name="userid" required placeholder="ex: 123456789">
+                </div><br>
+            
+                <div class="input email">
+                    <label for="name">Email:</label>
+                    <input type="email" name="email" required placeholder="ex: x@gmail.com">
+                </div><br>
+        
+        
+                <div class="input phone">
+                    <label for="phone">Phone number:</label>
+                    <input type="text" name="phoneno" required placeholder="ex: 01xxxxxxxxx">
+                </div><br>
+        
+        
+                <div class="input password">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" required placeholder="ex: xyz123">
+                </div><br>
+        
+        
+                <div class="input cpassword">
+                    <label for="cpassword">Confirm Password:</label>
+                    <input type="password" name="confirmpass" required placeholder="ex: xyz123">
+                </div><br>
+        
+        
+ 
+                <div class="registration">
+                    <input class="btn" type="submit" value="Submit" name="btn1">                   
+                    <input class="btn" type="reset" value="Reset" name="btn1">
+                 </div>
+               
+            </div>
+         
+        </form>
+    </div>
+     
+
+</body>
+</html>

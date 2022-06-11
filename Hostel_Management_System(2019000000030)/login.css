@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(2.jpg);
+    background-size:cover;
+    overflow: hidden;
+    height:100vh ;
+   
+
+}
+.center{
+    width: 430px;
+    margin:180px auto ;
+    position:relative;
+    left: 38px; 
+}
+.center .header{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    padding: 25px 0 30px 25px;
+    background-color: rgb(240, 118, 213);
+    border-bottom: 13px solid rgb(66, 14, 207);
+    border-radius: 5px 5px 0 0 ;
+
+}
+
+.center form{
+    position: absolute;
+    background-color: rgb(212, 226, 185);
+    width: 100%;
+    padding: 50px 10px 0px 30px;
+    box-sizing: border-box;
+    border: 1px solid #6d1c7d;
+    border-radius: 0 0 5px 5px;
+
+}
+
+form input{
+    height: 50px;
+    width: 90%;
+    padding: 0px 10px;
+    border-radius: 19px;
+    border: 2px solid rgb(197, 25, 240);
+    font-size: 18px;
+    outline: none;
+}
+
+form input[type="password"]{
+    margin-top: 20px;
+}
+
+
+form input[type="submit"]{
+   margin-top: 40px;
+   margin-bottom: 40px;
+   width: 130px;
+   height: 45px;
+   color: black;
+   cursor: pointer;
+   line-height: 45px;
+   border-radius: 45px;
+   border-radius: 5px;
+   background-color: rgb(201, 202, 183);
+   
+}
+
+form a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding:0 0 0 20px ;
+
+}
+form a:hover{
+    background-color: aquamarine;
+}
+.sub input:hover{
+    background-color: cornflowerblue;
+}

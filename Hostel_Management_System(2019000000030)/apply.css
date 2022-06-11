@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(13.jpg);
+    background-color: rgb(195, 195, 218);
+    background-size:cover;
+    overflow:scroll;
+    height:100vh ;
+    background-attachment: fixed;
+   
+
+}
+.center{
+    width: 700px;
+    margin:80px auto ;
+    position:relative;
+    left: px; 
+    background-color:blanchedalmond;
+}
+.header{
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom: 10px rgb(238, 130, 233) solid;
+    box-sizing: border-box;
+    background-color: rgb(91, 65, 163);
+}
+.input input{
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(185, 221, 203);
+    font-size: 15px;
+    border: 0px black ridge;
+    border-bottom: 5px rgb(172, 180, 100) solid;
+}
+label{
+    margin: 10px;
+    padding: 1px;
+    font-size: 20px;
+    
+}
+
+.registration{
+    background-color: black;
+    height: auto;
+    text-align: center;
+    
+}
+.btn{
+    background-color: rgb(151, 192, 226);
+
+    top: px;
+    left: 0px;
+    margin: 15px   auto;
+    font-size: 16px;
+    padding: 10px;
+    display: inline;
+    width: 30%;
+    border-radius: 10px;
+    
+}
+
+.header2{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+    width: 100%;
+    border-bottom: 10px red solid;
+    box-sizing: border-box;
+    background-color: rgb(35, 36, 35);
+}

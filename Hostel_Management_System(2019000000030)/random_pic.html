@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Picture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="" alt="" id="image">
+
+    <script type="text/javascript">
+      
+      let image= document.getElementById('image');
+      let images= ['5.jpg','6.jpg','3.jpg','8.jpg']
+      setInterval(function(){
+
+        let random= Math.floor(Math.random()*4);
+        image.src = images[random];
+
+      },800);
+
+
+    </script>
+</body>
+</html>
